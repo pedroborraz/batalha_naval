@@ -124,25 +124,30 @@ def tela_inicial(tela_jogo):
     imagem_tela_inicial = pygame.transform.scale(imagem_tela_inicial, (600, 680))
     tela_jogo.blit(imagem_tela_inicial, (0, 0))
 
+
 def trans_p2(tela_jogo):
     imagem_trans_p2 = pygame.image.load("./imagens/inteiro/trans_p2.jpeg").convert()
     imagem_trans_p2 = pygame.transform.scale(imagem_trans_p2, (600, 680))
     tela_jogo.blit(imagem_trans_p2, (0, 0))
+
 
 def trans_batalha(tela_jogo):
     imagem_trans_batalha = pygame.image.load("./imagens/inteiro/trans_batalha.jpeg").convert()
     imagem_trans_batalha = pygame.transform.scale(imagem_trans_batalha, (600, 680))
     tela_jogo.blit(imagem_trans_batalha, (0, 0))
 
+
 def trans_2(tela_jogo):
     imagem_trans1 = pygame.image.load("./imagens/inteiro/trans_2.jpeg").convert()
     imagem_trans1 = pygame.transform.scale(imagem_trans1, (600, 680))
     tela_jogo.blit(imagem_trans1, (0, 0))
 
+
 def trans_1(tela_jogo):
     imagem_trans1 = pygame.image.load("./imagens/inteiro/trans_1.jpeg").convert()
     imagem_trans1 = pygame.transform.scale(imagem_trans1, (600, 680))
     tela_jogo.blit(imagem_trans1, (0, 0))
+
 
 def vitoria(tela_jogo, jogador_vencedor):
     imagem_vitoria = pygame.image.load(f"./imagens/inteiro/vitoria_{jogador_vencedor}.jpeg").convert()
